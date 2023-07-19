@@ -1,0 +1,38 @@
+.App {
+  width: 100%;
+  padding: 60px;
+}
+
+.character {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  border: 1px solid #696969c2;
+  border-radius: 5px;
+  min-width: 300px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.character img {
+  width: 50px;
+}
+
+.character span {
+  padding: 10px;
+}
+
+.selected {
+  outline: 1px solid -webkit-focus-ring-color;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
